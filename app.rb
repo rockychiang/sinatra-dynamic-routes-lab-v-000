@@ -32,6 +32,7 @@ class App < Sinatra::Base
     @num2 = params[:number2]
     case params[:operation]
     when "add"
+      @num3 = @num1 + @num2
       "#{@num3}"
   end
 end
