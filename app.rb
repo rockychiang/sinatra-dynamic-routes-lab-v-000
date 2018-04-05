@@ -24,7 +24,7 @@ class App < Sinatra::Base
     params.each do |k, v|
       @words << v
     end
-    "#{@words[0]} #{@words[1]} #{@words[2]} #{@words[3]} #{@words[4]}"
+    "#{@words[0]} #{@words[1]} #{@words[2]} #{@words[3]} #{@words[4]}."
   end
   
   get "/:operation/:number1/:number2" do 
