@@ -27,6 +27,6 @@ class App < Sinatra::Base
     "#{@words[0]} #{@words[1]} #{@words[2]} #{@words[3]} #{@words[4]}"
   end
   
-  get ""
+  get "/:operation/:number1/:number2" do 
   
 end
