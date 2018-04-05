@@ -19,6 +19,10 @@ class App < Sinatra::Base
     end
   end
   
-  get "/say/:word1/:word2/:word3/:word4/:word5"
+  get "/say/:word1/:word2/:word3/:word4/:word5" do
+    words = []
+    params.each do |k, v|
+      
+      
   
 end
