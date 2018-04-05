@@ -34,5 +34,15 @@ class App < Sinatra::Base
     when "add"
       @num3 = @num1 + @num2
       "#{@num3}"
+    when "subtract"
+      @num3 = @num1 - @num2
+      "#{@num3}"
+    when "subtract"
+      @num3 = @num1 - @num2
+      "#{@num3}"
+    when "subtract"
+      @num3 = @num1 - @num2
+      "#{@num3}"
+    end
   end
 end
