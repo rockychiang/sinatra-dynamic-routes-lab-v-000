@@ -24,6 +24,7 @@ class App < Sinatra::Base
     params.each do |k, v|
       @words << v
     end
-      
+    
+  end
   
 end
