@@ -23,6 +23,7 @@ class App < Sinatra::Base
     @words = []
     params.each do |k, v|
       @words << v
+    end
       
   
 end
